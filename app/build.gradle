@@ -51,9 +51,13 @@ dependencies {
     implementation "com.squareup.okhttp3:logging-interceptor:4.10.0" // OkHttpのログ出力に必要
     // Moshi (Json解析ライブラリ)
     implementation "com.squareup.moshi:moshi:1.14.0"
+    implementation 'com.squareup.moshi:moshi-kotlin:1.14.0'
     kapt "com.squareup.moshi:moshi-kotlin-codegen:1.14.0"
     // Picasso (画像ライブラリ)
     implementation 'com.squareup.picasso:picasso:2.8'
+    //Glide（画像ライブラリ）
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
     /* 追加:ここまで */
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.6.0'

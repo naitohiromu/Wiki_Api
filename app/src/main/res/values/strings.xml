@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Wiki_Api</string>
     <string name="base_summonerurl">https://jp1.api.riotgames.com/lol/summoner/v4/summoners/by-name/</string>
-    <string name="api_key">RGAPI-3f65b5ff-413e-441f-9990-252fda343d6e</string>
+    <string name="matchid_url">https://asia.api.riotgames.com/lol/match/v5/matches/by-puuid/</string>
+    <string name="api_key">RGAPI-ebad1382-85d7-4b71-bee5-1384ffcd8b54</string>
 </resources>
