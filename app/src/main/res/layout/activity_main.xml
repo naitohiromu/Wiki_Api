@@ -26,13 +26,13 @@
         android:layout_height="wrap_content"
         android:text=""
         app:layout_constraintTop_toBottomOf="@id/button"/>
-
+    <!--
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/text_blank"
         android:text="ボタン"/>
-
+    -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -28,9 +28,12 @@ class MainActivity : AppCompatActivity() {
             binding.textBlank.text = str
             ApiFragment.start(this,str)
         }
+        /*
         binding.button2.setOnClickListener {
             binding.textBlank.text
         }
+
+         */
         //RGAPI-8c91dba2-1ea4-4042-b89e-156bcd687223
     }//https://jp1.api.riotgames.com//lol/summoner/v3/summoners/by-name/多摩川のoner
 }//https://jp1.api.riotgames.com/lol/summoner/v4/summoners/by-name/多摩川Oner?api_key=RGAPI-8c91dba2-1ea4-4042-b89e-156bcd687223
